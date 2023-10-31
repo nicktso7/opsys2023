@@ -22,9 +22,11 @@ struct list
 
 listout* list_create();
 
-void list_innerinsert(listnode*,int postal, char name, char surname);
+listnode* list_innerinsert(listnode*,int postal, char name, char surname);
 
 listout* list_insert(listout*,int postal,char name, char surname);
+
+void list_print(listout* list);
 
 listnode* list_search(listout *, int postal,char name);
 

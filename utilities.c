@@ -27,4 +27,21 @@ int POW(int i,int j)
     return i;
 }
 
+int is_power_of_two(int num)
+{
+    if(num==0)
+    {
+        return 0;
+    }
+    while(num != 1)
+    {
+        if (num % 2 != 0)
+        {
+            return 0;
+        }
+        num = num / 2;
+    }
+    return 1;
+}
+
 #endif
