@@ -23,7 +23,7 @@ listout* list_create()
 }
 
 
-void list_innerinsert(listnode *node,int postal, char name, char surname) //isnert data in the same postal code list in postal codes list
+listnode* list_innerinsert(listnode *node,int postal, char name, char surname) //isnert data in the same postal code list in postal codes list
 {
     listnode *temp = node;
     while((temp->next) != NULL)
@@ -40,6 +40,7 @@ void list_innerinsert(listnode *node,int postal, char name, char surname) //isne
     temp->name=name;
     temp->surname=surname;
     temp->next=NULL;
+    return temp;
 }
 
 
@@ -89,41 +90,57 @@ listout* list_insert(listout* list, int postal, char name, char surname) //inser
         {
             listout* temp = list;
         
-            while(((temp->next)!=NULL) && (postal < temp->postal))
+            while(((temp)!=NULL) && (postal < temp->postal))
             {
                 temp=temp->next;
             }
             
             if(postal == temp->postal)
             {
-                list_innerinsert(temp->node,postal,name,surname);
+                temp->node=list_innerinsert(temp->node,postal,name,surname);
 
                 return list;
             }
             else
             {
-                listout* new_node=malloc(sizeof(listout));
-                if((new_node) == NULL)
+                temp->next=malloc(sizeof(listout));
+                if((temp->next) == NULL)
                 {
                     printf("Malloc failed\n");
                     return NULL;
                 }
                 
-                new_node->node=malloc(sizeof(listnode));
-                if((new_node->node) == NULL)
+                temp->next->node=malloc(sizeof(listnode));
+                if((temp->next->node) == NULL)
                 {
                     printf("Malloc failed\n");
                     return NULL;
                 }
-                new_node->node->postal=postal;
-                new_node->node->next=NULL;
-                new_node->node->name=name;
-                new_node->node->surname=surname;
-
-                temp->next=new_node;
+                temp->next->node->postal=postal;
+                temp->next->node->next=NULL;
+                temp->next->node->name=name;
+                temp->next->node->surname=surname;
+                
+                //temp->next=new_node;
                 return list;
             }
         }
+    }
+}
+
+void list_print(listout* list)
+{
+    listout *temp=list;
+    while(temp!=NULL)
+    {
+        printf("first postal in list is %d \n",temp->node->postal);
+        listnode *temp2=temp->node;
+        while((temp2->next)!=NULL)
+        {
+            printf("with nodes %d \n", temp2->next->postal);
+            temp2=temp2->next;
+        }
+        temp=temp->next;
     }
 }
 

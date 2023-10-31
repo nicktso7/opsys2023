@@ -1,0 +1,1015 @@
+Hello world, good to have you with us in this testing!
+round is 0
+postal is 100093
+index 1
+bucket 1 current size is 0
+not in overflow index is 1
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4010 
+total occupied are 1 an total buckets are 2
+round is 0
+postal is 100140
+index 0
+bucket 0 current size is 0
+not in overflow index is 0
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4010 
+first postal in list is 4015 
+total occupied are 2 an total buckets are 2
+round is 0
+postal is 100134
+index 0
+bucket 0 current size is 1
+not in overflow index is 0
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4010 
+first postal in list is 4015 
+total occupied are 3 an total buckets are 2
+round is 0
+postal is 100018
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 100018
+first postal in list is 4006 
+first postal in list is 4018 
+total occupied are 4 an total buckets are 2
+bucket to be splitted 0 
+testing split 
+split overflow
+round is 1
+postal is 100018
+index 2
+bucket 2 current size is 0
+not in overflow index is 2
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 1
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 0
+postal is 100126
+index 0
+new index 2
+bucket 2 current size is 1
+not in overflow index is 2
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 3996 
+total occupied are 5 an total buckets are 3
+bucket to be splitted 1 
+testing split 
+split normal
+bucket to be splitted current size is 1100093 current size is 0
+
+split normal completed
+round is 1
+postal is 100093
+index 1
+bucket 1 current size is 0
+not in overflow index is 1
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 1
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+current round is 0
+current round after rounding up is 1
+round is 1
+postal is 100027
+index 3
+bucket 3 current size is 0
+not in overflow index is 3
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4004 
+total occupied are 6 an total buckets are 4
+round is 1
+postal is 100038
+index 2
+bucket 2 current size is 2
+in overflow handling for bucket 2 with size 2 entering value 100038
+first postal in list is 4006 
+first postal in list is 4009 
+total occupied are 7 an total buckets are 4
+bucket to be splitted 0 
+testing split 
+split overflow
+round is 2
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 2
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 1
+postal is 100133
+index 1
+bucket 1 current size is 1
+not in overflow index is 1
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4002 
+total occupied are 8 an total buckets are 5
+bucket to be splitted 1 
+testing split 
+split normal
+bucket to be splitted current size is 2100133 current size is 1
+bucket to be splitted current size is 1100093 current size is 0
+
+split normal completed
+round is 2
+postal is 100093
+index 5
+bucket 5 current size is 0
+not in overflow index is 5
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 2
+postal is 100133
+index 5
+bucket 5 current size is 1
+not in overflow index is 5
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+round is 1
+postal is 100066
+index 2
+bucket 2 current size is 2
+in overflow handling for bucket 2 with size 2 entering value 100066
+first postal in list is 4006 
+first postal in list is 4011 
+total occupied are 9 an total buckets are 6
+round is 1
+postal is 100123
+index 3
+bucket 3 current size is 1
+not in overflow index is 3
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 3996 
+total occupied are 10 an total buckets are 6
+bucket to be splitted 2 
+testing split 
+split overflow
+round is 2
+postal is 100038
+index 6
+bucket 6 current size is 0
+not in overflow index is 6
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 2
+postal is 100066
+index 2
+bucket 2 current size is 2
+in overflow handling for bucket 2 with size 2 entering value 100066
+round is 1
+postal is 100033
+index 1
+new index 1
+bucket 1 current size is 0
+not in overflow index is 1
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4009 
+total occupied are 11 an total buckets are 7
+bucket to be splitted 3 
+testing split 
+split normal
+bucket to be splitted current size is 2100123 current size is 1
+bucket to be splitted current size is 1100027 current size is 0
+
+split normal completed
+round is 2
+postal is 100027
+index 3
+bucket 3 current size is 0
+not in overflow index is 3
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 2
+postal is 100123
+index 3
+bucket 3 current size is 1
+not in overflow index is 3
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+current round is 1
+current round after rounding up is 2
+round is 2
+postal is 100054
+index 6
+bucket 6 current size is 1
+not in overflow index is 6
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4002 
+total occupied are 12 an total buckets are 8
+round is 2
+postal is 100059
+index 3
+bucket 3 current size is 2
+in overflow handling for bucket 3 with size 2 entering value 100059
+first postal in list is 4006 
+first postal in list is 3996 
+total occupied are 13 an total buckets are 8
+bucket to be splitted 0 
+testing split 
+split overflow
+round is 3
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 3
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 2
+postal is 100068
+index 4
+bucket 4 current size is 0
+not in overflow index is 4
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 3994 
+total occupied are 14 an total buckets are 9
+bucket to be splitted 1 
+testing split 
+split normal
+bucket to be splitted current size is 1100033 current size is 0
+
+split normal completed
+round is 3
+postal is 100033
+index 1
+bucket 1 current size is 0
+not in overflow index is 1
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 3
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 2
+postal is 100024
+index 0
+new index 8
+bucket 8 current size is 0
+not in overflow index is 8
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4002 
+total occupied are 15 an total buckets are 10
+round is 2
+postal is 100028
+index 4
+bucket 4 current size is 1
+not in overflow index is 4
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4006 
+total occupied are 16 an total buckets are 10
+bucket to be splitted 2 
+testing split 
+split overflow
+round is 3
+postal is 100066
+index 2
+bucket 2 current size is 2
+in overflow handling for bucket 2 with size 2 entering value 100066
+round is 3
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 2
+postal is 100086
+index 6
+bucket 6 current size is 2
+in overflow handling for bucket 6 with size 2 entering value 100086
+first postal in list is 4006 
+first postal in list is 4019 
+total occupied are 17 an total buckets are 11
+bucket to be splitted 3 
+testing split 
+split overflow
+round is 3
+postal is 100059
+index 11
+bucket 11 current size is 0
+not in overflow index is 11
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 3
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 2
+postal is 100023
+index 7
+bucket 7 current size is 0
+not in overflow index is 7
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4019 
+total occupied are 18 an total buckets are 12
+round is 2
+postal is 100005
+index 5
+bucket 5 current size is 2
+in overflow handling for bucket 5 with size 2 entering value 100005
+first postal in list is 4006 
+first postal in list is 4006 
+total occupied are 19 an total buckets are 12
+bucket to be splitted 4 
+testing split 
+split normal
+bucket to be splitted current size is 2100028 current size is 1
+bucket to be splitted current size is 1100068 current size is 0
+
+split normal completed
+round is 3
+postal is 100068
+index 4
+bucket 4 current size is 0
+not in overflow index is 4
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 3
+postal is 100028
+index 12
+bucket 12 current size is 0
+not in overflow index is 12
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 2
+postal is 100118
+index 6
+bucket 6 current size is 2
+in overflow handling for bucket 6 with size 2 entering value 100118
+first postal in list is 4006 
+first postal in list is 4012 
+total occupied are 20 an total buckets are 13
+bucket to be splitted 5 
+testing split 
+split overflow
+round is 3
+postal is 100005
+index 5
+bucket 5 current size is 2
+in overflow handling for bucket 5 with size 2 entering value 100005
+round is 3
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 2
+postal is 100135
+index 7
+bucket 7 current size is 1
+not in overflow index is 7
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 3998 
+total occupied are 21 an total buckets are 14
+round is 2
+postal is 100139
+index 3
+new index 11
+bucket 11 current size is 1
+not in overflow index is 11
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4005 
+total occupied are 22 an total buckets are 14
+bucket to be splitted 6 
+testing split 
+split overflow
+round is 3
+postal is 100086
+index 6
+bucket 6 current size is 2
+in overflow handling for bucket 6 with size 2 entering value 100086
+round is 3
+postal is 100118
+index 6
+bucket 6 current size is 2
+in overflow handling for bucket 6 with size 2 entering value 100118
+round is 2
+postal is 100097
+index 1
+new index 1
+bucket 1 current size is 1
+not in overflow index is 1
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4010 
+total occupied are 23 an total buckets are 15
+bucket to be splitted 7 
+testing split 
+split normal
+bucket to be splitted current size is 2100135 current size is 1
+bucket to be splitted current size is 1100023 current size is 0
+
+split normal completed
+round is 3
+postal is 100023
+index 7
+bucket 7 current size is 0
+not in overflow index is 7
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 3
+postal is 100135
+index 7
+bucket 7 current size is 1
+not in overflow index is 7
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+current round is 2
+current round after rounding up is 3
+round is 3
+postal is 100065
+index 1
+bucket 1 current size is 2
+in overflow handling for bucket 1 with size 2 entering value 100065
+first postal in list is 4006 
+first postal in list is 3993 
+total occupied are 24 an total buckets are 16
+round is 3
+postal is 100084
+index 4
+bucket 4 current size is 1
+not in overflow index is 4
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4001 
+total occupied are 25 an total buckets are 16
+bucket to be splitted 0 
+testing split 
+split overflow
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 3
+postal is 100081
+index 1
+bucket 1 current size is 2
+in overflow handling for bucket 1 with size 2 entering value 100081
+first postal in list is 4006 
+first postal in list is 4010 
+total occupied are 26 an total buckets are 17
+bucket to be splitted 1 
+testing split 
+split overflow
+round is 4
+postal is 100065
+index 1
+bucket 1 current size is 2
+in overflow handling for bucket 1 with size 2 entering value 100065
+round is 4
+postal is 100081
+index 17
+bucket 17 current size is 0
+not in overflow index is 17
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 3
+postal is 100109
+index 13
+bucket 13 current size is 0
+not in overflow index is 13
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 3990 
+total occupied are 27 an total buckets are 18
+round is 3
+postal is 100050
+index 2
+bucket 2 current size is 2
+in overflow handling for bucket 2 with size 2 entering value 100050
+first postal in list is 4006 
+first postal in list is 4007 
+total occupied are 28 an total buckets are 18
+bucket to be splitted 2 
+testing split 
+split overflow
+round is 4
+postal is 100066
+index 2
+bucket 2 current size is 2
+in overflow handling for bucket 2 with size 2 entering value 100066
+round is 4
+postal is 100050
+index 18
+bucket 18 current size is 0
+not in overflow index is 18
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 3
+postal is 100009
+index 9
+bucket 9 current size is 0
+not in overflow index is 9
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4001 
+total occupied are 29 an total buckets are 19
+bucket to be splitted 3 
+testing split 
+split overflow
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 3
+postal is 100074
+index 10
+bucket 10 current size is 0
+not in overflow index is 10
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 3993 
+total occupied are 30 an total buckets are 20
+round is 3
+postal is 100130
+index 2
+new index 2
+bucket 2 current size is 2
+in overflow handling for bucket 2 with size 2 entering value 100130
+first postal in list is 4006 
+first postal in list is 4019 
+total occupied are 31 an total buckets are 20
+bucket to be splitted 4 
+testing split 
+split normal
+bucket to be splitted current size is 2100084 current size is 1
+bucket to be splitted current size is 1100068 current size is 0
+
+split normal completed
+round is 4
+postal is 100068
+index 4
+bucket 4 current size is 0
+not in overflow index is 4
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 4
+postal is 100084
+index 20
+bucket 20 current size is 0
+not in overflow index is 20
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 3
+postal is 100103
+index 7
+bucket 7 current size is 2
+in overflow handling for bucket 7 with size 2 entering value 100103
+first postal in list is 4006 
+first postal in list is 3995 
+total occupied are 32 an total buckets are 21
+bucket to be splitted 5 
+testing split 
+split overflow
+round is 4
+postal is 100005
+index 5
+bucket 5 current size is 2
+in overflow handling for bucket 5 with size 2 entering value 100005
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 3
+postal is 100060
+index 12
+bucket 12 current size is 1
+not in overflow index is 12
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 3999 
+total occupied are 33 an total buckets are 22
+round is 3
+postal is 100040
+index 8
+bucket 8 current size is 1
+not in overflow index is 8
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4004 
+total occupied are 34 an total buckets are 22
+bucket to be splitted 6 
+testing split 
+split overflow
+round is 4
+postal is 100086
+index 22
+bucket 22 current size is 0
+not in overflow index is 22
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 4
+postal is 100118
+index 22
+bucket 22 current size is 1
+not in overflow index is 22
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+round is 3
+postal is 100070
+index 6
+new index 6
+bucket 6 current size is 2
+in overflow handling for bucket 6 with size 2 entering value 100070
+first postal in list is 4006 
+first postal in list is 4006 
+total occupied are 35 an total buckets are 23
+bucket to be splitted 7 
+testing split 
+split overflow
+round is 4
+postal is 100103
+index 7
+bucket 7 current size is 2
+in overflow handling for bucket 7 with size 2 entering value 100103
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 3
+postal is 100047
+index 15
+bucket 15 current size is 0
+not in overflow index is 15
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4010 
+total occupied are 36 an total buckets are 24
+round is 3
+postal is 100014
+index 14
+bucket 14 current size is 0
+not in overflow index is 14
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4012 
+total occupied are 37 an total buckets are 24
+bucket to be splitted 8 
+testing split 
+split normal
+bucket to be splitted current size is 2100040 current size is 1
+bucket to be splitted current size is 1100024 current size is 0
+
+split normal completed
+round is 4
+postal is 100024
+index 24
+bucket 24 current size is 0
+not in overflow index is 24
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 4
+postal is 100040
+index 8
+bucket 8 current size is 0
+not in overflow index is 8
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 3
+postal is 100088
+index 8
+new index 24
+bucket 24 current size is 1
+not in overflow index is 24
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4008 
+total occupied are 38 an total buckets are 25
+bucket to be splitted 9 
+testing split 
+split normal
+bucket to be splitted current size is 1100009 current size is 0
+
+split normal completed
+round is 4
+postal is 100009
+index 9
+bucket 9 current size is 0
+not in overflow index is 9
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 3
+postal is 100025
+index 9
+new index 25
+bucket 25 current size is 0
+not in overflow index is 25
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4014 
+total occupied are 39 an total buckets are 26
+round is 3
+postal is 100049
+index 1
+new index 17
+bucket 17 current size is 1
+not in overflow index is 17
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4009 
+total occupied are 40 an total buckets are 26
+bucket to be splitted 10 
+testing split 
+split normal
+bucket to be splitted current size is 1100074 current size is 0
+
+split normal completed
+round is 4
+postal is 100074
+index 10
+bucket 10 current size is 0
+not in overflow index is 10
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 3
+postal is 100007
+index 7
+new index 7
+bucket 7 current size is 2
+in overflow handling for bucket 7 with size 2 entering value 100007
+first postal in list is 4006 
+first postal in list is 4012 
+total occupied are 41 an total buckets are 27
+bucket to be splitted 11 
+testing split 
+split normal
+bucket to be splitted current size is 2100139 current size is 1
+bucket to be splitted current size is 1100059 current size is 0
+
+split normal completed
+round is 4
+postal is 100059
+index 27
+bucket 27 current size is 0
+not in overflow index is 27
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 4
+postal is 100139
+index 11
+bucket 11 current size is 0
+not in overflow index is 11
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 3
+postal is 100136
+index 8
+new index 8
+bucket 8 current size is 1
+not in overflow index is 8
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4018 
+total occupied are 42 an total buckets are 28
+round is 3
+postal is 100083
+index 3
+new index 19
+bucket 19 current size is 0
+not in overflow index is 19
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4011 
+total occupied are 43 an total buckets are 28
+bucket to be splitted 12 
+testing split 
+split normal
+bucket to be splitted current size is 2100060 current size is 1
+bucket to be splitted current size is 1100028 current size is 0
+
+split normal completed
+round is 4
+postal is 100028
+index 28
+bucket 28 current size is 0
+not in overflow index is 28
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 4
+postal is 100060
+index 28
+bucket 28 current size is 1
+not in overflow index is 28
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+round is 3
+postal is 100003
+index 3
+new index 3
+bucket 3 current size is 2
+in overflow handling for bucket 3 with size 2 entering value 100003
+first postal in list is 4006 
+first postal in list is 3990 
+total occupied are 44 an total buckets are 29
+bucket to be splitted 13 
+testing split 
+split normal
+bucket to be splitted current size is 1100109 current size is 0
+
+split normal completed
+round is 4
+postal is 100109
+index 13
+bucket 13 current size is 0
+not in overflow index is 13
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 3
+postal is 100078
+index 14
+bucket 14 current size is 1
+not in overflow index is 14
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 4005 
+total occupied are 45 an total buckets are 30
+round is 3
+postal is 100142
+index 14
+bucket 14 current size is 2
+in overflow handling for bucket 14 with size 2 entering value 100142
+first postal in list is 4006 
+first postal in list is 4011 
+total occupied are 46 an total buckets are 30
+bucket to be splitted 14 
+testing split 
+split overflow
+round is 4
+postal is 100142
+index 14
+bucket 14 current size is 2
+in overflow handling for bucket 14 with size 2 entering value 100142
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 3
+postal is 100113
+index 1
+new index 17
+bucket 17 current size is 2
+in overflow handling for bucket 17 with size 2 entering value 100113
+first postal in list is 4006 
+first postal in list is 4005 
+total occupied are 47 an total buckets are 31
+bucket to be splitted 15 
+testing split 
+split normal
+bucket to be splitted current size is 1100047 current size is 0
+
+split normal completed
+round is 4
+postal is 100047
+index 15
+bucket 15 current size is 0
+not in overflow index is 15
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 4
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+current round is 3
+current round after rounding up is 4
+round is 4
+postal is 100108
+index 12
+bucket 12 current size is 0
+not in overflow index is 12
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+first postal in list is 4006 
+first postal in list is 4009 
+total occupied are 48 an total buckets are 32
+round is 4
+postal is 100043
+index 11
+bucket 11 current size is 1
+not in overflow index is 11
+bucket to be inserted current size is 1
+bucket that value is inserted current size is 2
+first postal in list is 4006 
+first postal in list is 3990 
+total occupied are 49 an total buckets are 32
+bucket to be splitted 0 
+testing split 
+split overflow
+round is 5
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 5
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+round is 4
+postal is 100102
+index 6
+bucket 6 current size is 2
+in overflow handling for bucket 6 with size 2 entering value 100102
+first postal in list is 4006 
+first postal in list is 4013 
+total occupied are 50 an total buckets are 33
+bucket to be splitted 1 
+testing split 
+split overflow
+round is 5
+postal is 100065
+index 33
+bucket 33 current size is 0
+not in overflow index is 33
+bucket to be inserted current size is 0
+bucket that value is inserted current size is 1
+round is 5
+postal is 0
+index 0
+bucket 0 current size is 2
+in overflow handling for bucket 0 with size 2 entering value 0
+exiting program
